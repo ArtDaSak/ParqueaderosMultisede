@@ -25,7 +25,7 @@ Campus Parking es una solución backend diseñada para administrar múltiples pa
 
 1. Clonar el repositorio y entrar al directorio:
    ```bash
-   git clone <URL_PRIVADA> campus-parking
+   git clone https://github.com/ArtDaSak/ParqueaderosMultisede.git campus-parking
    cd campus-parking
    ```
 2. Instalar dependencias:
@@ -102,13 +102,6 @@ En `aggregations.js` encontrarás pipelines detallados y comentados para:
 - **roles.js** crea roles con permisos CRUD específicos usando `db.createRole`.
 - Usuarios de ejemplo con `db.createUser` para cada rol: Administrador, Empleado, Cliente.
 - Restricciones de **sede** deben reforzarse en la capa de aplicación o mediante reglas avanzadas de Mongo.
-
-## 🛣️ Roadmap y Mejoras Futuras
-
-- **Sharding** de la colección `parqueos` para alta concurrencia.
-- **Dashboard** con Node.js + Express + React para UI gráfica.
-- **Caching** con Redis para consultas frecuentes.
-- **Pruebas automatizadas** con Jest o Mocha.
 
 ---
 
