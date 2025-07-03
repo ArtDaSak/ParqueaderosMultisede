@@ -21,6 +21,41 @@ Campus Parking es una solución backend diseñada para administrar múltiples pa
 - **Node.js**: v16+ (para scripts Node)
 - **npm** o **yarn**
 
+## ⚙️ Instalación y Ejecución Básica
+
+1. Clonar el repositorio y entrar al directorio:
+   ```bash
+   git clone https://github.com/ArtDaSak/ParqueaderosMultisede.git campus-parking
+   cd campus-parking
+   ```
+2. Instalar dependencias:
+   ```bash
+   nvm install node
+   npm install mongodb
+   ```
+3. Crear colecciones, índices y validaciones:
+   ```bash
+   mongosh campusParking db_config.js
+   ```
+4. Poblar datos de prueba:
+   ```bash
+   mongosh campusParking test_dataset.js
+   ```
+5. Ejecutar consultas analíticas:
+   ```bash
+   mongosh campusParking aggregations.js
+   ```
+6. Configurar roles y usuarios:
+   ```bash
+   mongosh campusParking roles.js
+   ```
+7. Registrar ingreso/salida de vehículo (Node.js):
+   ```bash
+   node transactions.js <vehiculoId> <sedeId> <zonaId> [--salida]
+   ```
+
+> **Orden de carga**: `db_config.js` → `test_dataset.js` → resto de scripts.
+
 ## 📂 Estructura del Proyecto
 
 ```
