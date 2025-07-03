@@ -95,13 +95,66 @@ En `aggregations.js` encontrarás pipelines detallados y comentados para:
 7. **Vehículos actualmente activos por sede**
 8. **Zonas que han excedido su capacidad**
 
-> Reemplaza `REEMPLAZAR_CON_ID_DEL_CLIENTE` con un `ObjectId` real para el punto 6.
-
 ## 🔐 Seguridad y Control de Acceso
 
 - **roles.js** crea roles con permisos CRUD específicos usando `db.createRole`.
 - Usuarios de ejemplo con `db.createUser` para cada rol: Administrador, Empleado, Cliente.
 - Restricciones de **sede** deben reforzarse en la capa de aplicación o mediante reglas avanzadas de Mongo.
+
+---
+
+## 🚀 Tecnologías Utilizadas:
+
+<ul>
+    <li>
+        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="15"/>
+        </a>
+        MongoDB – Base de datos NoSQL usada para modelado flexible, validaciones y transacciones.
+    </li>
+    <li>
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="15"/>
+        </a>
+        JavaScript (ES6+) – Lenguaje principal para scripts, agregaciones y lógica de backend.
+    </li>
+    <li>
+        <a href="https://nodejs.org/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="15"/>
+        </a>
+        Node.js – Ejecuta scripts modernos (como transacciones y pruebas).
+    </li>
+    <li>
+        <a href="https://www.json.org/json-es.html" target="_blank" rel="noreferrer">
+            <img src="https://www.json.org/img/json160.gif" alt="JSON" width="15"/>
+        </a>
+        JSON – Formato usado para estructuras de datos y comunicación entre scripts.
+    </li>
+    <li>
+        <a href="https://daringfireball.net/projects/markdown/" target="_blank" rel="noreferrer">
+            <img src="https://cdn.commonmark.org/uploads/default/original/2X/3/366f3614de6996d79a131fdf9b41ed7d65cfe181.png" alt="Markdown" width="15"/>
+        </a>
+        Markdown – Para la documentación clara y organizada del proyecto.
+    </li>
+    <li>
+        <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" width="15"/>
+        </a>
+        Visual Studio Code – Editor principal de desarrollo, con extensiones para Mongo, Git y JS.
+    </li>
+    <li> 
+        <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="15"/>
+        </a>
+        Git – Control de versiones para rastreo de cambios y ramas del proyecto.
+    </li>
+    <li> 
+        <a href="https://github.com/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="15"/>
+        </a>
+        GitHub – Almacenamiento remoto del repositorio y colaboración entre desarrolladores.
+    </li>
+</ul>
 
 ---
 
